@@ -1,0 +1,462 @@
+/*---------------------Skeleton slide loading---------------------------*/
+.skeleton-slide{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    overflow: hidden;
+    height: 450px;
+    width: 100%;
+    border: 1px solid #d9d9d9;
+}
+.skeleton-slide-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skeleton-slide-title{
+    background-color: #d9d9d9;
+    width: 400px;
+    height: 50px;
+    max-width: 95%;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.skeleton-slide-price{
+    width: 200px;
+    height: 30px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    margin-top: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.skeleton-slide-actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skeleton-slide-btn{
+    width: 100px;
+    height: 40px;
+    background-color: #d9d9d9;
+    margin: 15px;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+}
+@media screen and (max-width: 1000px){
+    .skeleton-slide{
+        height: 430px;
+    }
+}
+@media screen and (max-width: 800px){
+    .skeleton-slide{
+        height: 380px;
+    }
+}
+@media screen and (max-width: 660px){
+    .skeleton-slide{
+        height: 300px;
+        border-radius: 10px;
+    }
+}
+
+
+/*--------------------------Product skeleton loading---------------------*/
+.skeleton-sale{
+    height: 433px;
+    width: 250px;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+}
+.skeleton-sale-image{
+    width: 100%;
+    height: 65%;
+    background-color: #d9d9d9;
+    position: relative;
+    overflow: hidden;
+}
+.skeleton-sale-name{
+    width: 70%;
+    height: 30px;
+    background-color: #d9d9d9;;
+    margin: 4px auto;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.skeleton-sale-memory{
+    background-color: #d9d9d9;
+    width: 40px;
+    height: 20px;
+    margin: 3px auto;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.skeleton-sale-price{
+    width: 40%;
+    height: 25px;
+    background-color: #d9d9d9;
+    margin: 3px auto;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.skeleton-sale-actions{
+    width: 90%;
+    height: 35px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    margin: 5px auto;
+    position: relative;
+    overflow: hidden;
+}
+@media screen and (max-width: 550px){
+   .skeleton-sale{
+       height: 400px;
+       width: 220px;
+   }
+}
+@media screen and (max-width: 515px){
+    .skeleton-sale{
+        height: 390px;
+        width: 200px;
+    }
+ }
+ @media screen and (max-width: 450px){
+    .skeleton-sale{
+        height: 370px;
+        width: 170px;
+    }
+ }
+
+ /*-----------------------Service_index----------------*/
+.sv-container{
+    border:1px solid #d9d9d9;
+    margin: 20px 0;
+    padding: 10px 25px;
+    width: 320px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    color: #fff;
+}
+.sv-logo{
+    width: 50%;
+    height: 25px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.sv-title{
+    width: 100%;
+    height: 40px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+.sv-action{
+    width: 50%;
+    height: 25px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+.sv-icon{
+    width: 40px;
+    height: 40px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    overflow: hidden;
+}
+
+/*---------------------Product-new (Product page)----------------*/
+.product_new{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 15px auto;
+}
+.product_new_top{
+    width: 100%;
+    height: 40%;
+}
+.product_new_bottom{
+    width: 100%;
+    height: 60%;
+}
+.product_new_top_title{
+    width: 350px;
+    max-width: 90%;
+    border-radius: 10px;
+    height: 50px;
+    background-color: #d9d9d9;
+    margin: 30px auto;
+    position: relative;
+    overflow: hidden;
+}
+.product_new_top_des{
+    width: 250px;
+    max-width: 70%;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    margin: 15px auto;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.product_new_top_price{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    margin: 10px auto;
+    max-width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.product_new_top_action{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+.product_new_bottom{
+    width: 100%;
+    margin-top: 50px;
+}
+.product_new_bottom_img{
+    height: 250px;
+    width: 700px;
+    margin: 30px auto;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    max-width: 95%;
+    position: relative;
+    overflow: hidden;
+}
+/*-------------Product-menu----------------*/
+.product_menu{
+    width: calc(50% - 10px);
+    height: 500px;
+    background-color: #fff;
+    margin-top: 15px;
+}
+.product_menu_top{
+    height: 40%;
+}
+.product_menu_bottom{
+    height: 60%;
+}
+.product_menu_top_title{
+    width: 400px;
+    height: 50px;
+    background-color: #d9d9d9;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 70%;
+    position: relative;
+    overflow: hidden;
+}
+.product_menu_top_price{
+    width: 300px;
+    height: 30px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+}
+.product_menu_top_action{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+.product_menu_bottom{
+    width: 100%;
+}
+.product_menu_img{
+    width: 90%;
+    height: 250px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+@media screen and (max-width: 1000px){
+    .product_menu{
+        width: calc(100% - 10px);
+    }
+}
+.about-skeleton{
+    width: 100%;
+    height: 90vh;
+}
+.about-skeleton-top{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-skeleton-bottom{
+    width: 100%;
+    height: 60%;
+}
+.about-skeleton-top-title{
+    width: 400px;
+    background-color: #d9d9d9;
+    height: 40px;
+    max-width: 70%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.about-skeleton-top-text{
+    width: 600px;
+    height: 100px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.about-skeleton-bottom-container{
+    border: 1px solid #d9d9d9;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+.about-skeleton-bottom-left{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-skeleton-bottom-right{
+    width: 35%;
+    height: 100%;
+}
+.about-skeleton-bottom-left-title{
+    width: 300px;
+    height: 40px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    max-width: 70%;
+}
+.about-skeleton-bottom-left-text{
+    width: 400px;
+    height: 80px;
+    background-color: #d9d9d9;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    max-width: 90%;
+}
+.about-skeleton-bottom-right-img{
+    width: 100%;
+    height: 100%;
+    background-color: #d9d9d9;
+    position: relative;
+    overflow: hidden;
+}
+/*--------------------Skeleton effect-------------------*/
+.skeleton-slide-title::before, .skeleton-slide-btn::before, .skeleton-slide-price::before, .skeleton-sale-actions::before,
+.skeleton-sale-image::before, .skeleton-sale-memory::before, .skeleton-sale-memory::before, .skeleton-sale-price::before,
+.skeleton-sale-name::before, .sv-action::before, .sv-icon::before, .sv-logo::before,.sv-title::before,
+.product_new_top_title::before, .product_new_top_des::before, .product_new_top_price::before, .product_new_top_action::before,
+.product_new_bottom_img::before, .product_menu_top_title::before, .product_menu_top_price::before, .product_menu_top_action::before,
+.product_menu_img::before, .about-skeleton-top-text::before, .about-skeleton-top-title::before, .about-skeleton-bottom-left-text::before,
+.about-skeleton-bottom-left-title::before, .about-skeleton-bottom-right-img::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 450px 400px;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #d9d9d9 0%, rgba(0,0,0,0.06) 20%, #d9d9d9 40%, #d9d9d9 100%);
+    animation: skeleton 1s linear infinite;
+}
+/*--------------Add delay for async running on any component*/
+.skeleton-slide-title::before{
+    animation-delay: .6s;
+}
+.skeleton-slide-price::before{
+    animation-delay: .4s;
+}
+.skeleton-sale-memory::before{
+    animation-delay: .1s;
+}
+.skeleton-sale-price::before{
+    animation-delay: .4s;
+}
+@keyframes skeleton{
+    0%{
+        background-position: -450px 0;
+    }
+    100%{
+        background-position: 450px 0;
+    }
+}
+@media screen and (max-width: 800px){
+    .skeleton-sale{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 665px){
+    .skeleton-sale{
+        width: 230px;
+    }
+}
+@media screen and (max-width: 620px){
+    .skeleton-sale{
+        width: 170px;
+    }
+}
+@media screen and (max-width: 400px){
+    .skeleton-sale{
+        width: 150px;
+    }
+}
+
+

@@ -1,0 +1,277 @@
+.sales{
+    background-color: #fff;
+    padding: 15px 0;
+    margin: 0 10px;
+    border-radius: 30px;
+}
+.sales-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 40px;
+}
+.sales-header-promotions{
+    align-self: flex-start;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.7;
+}
+.sales-header-title{
+    align-self: flex-start;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
+    padding: 10px 0;
+}
+.sales-header-time{
+    align-self: flex-start;
+    font-weight: 600;
+    font-size: 17px;
+}
+.sales-products{
+    margin: 20px 0;
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+/*---------------------Sale product-----------*/
+.sales-product{
+    width: 250px;
+    margin: 10px;
+}
+.sales-product-image{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sales-product-image img{
+    height: 90%;
+    object-fit: cover;
+    max-width: 100%;
+    object-fit: contain;
+}
+.sales-product-name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    position: relative;
+    width:fit-content;
+    margin: 0 auto;
+}
+.sales-product-memory{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sales-product-memory-wrapper{
+    border: 2px solid black;
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 11px;
+    margin: 5px;
+    font-weight: 700;
+    margin: 0 2px;
+}
+
+.sales-product-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+.sales-product-price p{
+    padding: 5px;
+}
+.sales-product-price span{
+    text-decoration: line-through;
+    padding: 5px;
+    opacity: .5;
+}
+.sales-product-actions-btn{
+    background-color: #0071e3;
+    width: 90%;
+    color: #fff;
+}
+.sales-product-tag{
+    position: absolute;
+    background-color: #fe0000;
+    font-size: 12px;
+    width: 35px;
+    height: 18px;
+    color: #fff;
+    font-weight: 600;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    top: -20px;
+    right: -35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sales-product-link{
+    text-decoration: none;
+    color: #000000;
+}
+.sales-product-link:hover{
+    text-decoration: underline;
+}
+.sale-products-skeletons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 900px){
+    .sales{
+        margin-top: 20px;
+    }
+    .sales-products{
+        padding: 0;
+        width: 100%;
+        flex-direction: row;
+    }
+    .sales-product{
+        width: 315px;
+    }
+    .sales-product-image{
+        height: 280px;
+        width: 100%;
+    }
+    .sales-product-name{
+        font-size: 19px;
+    }
+    .sales-product-price{
+        font-size: 17px;
+    }
+    .sales-product-memory-wrapper{
+        font-size: 10px;
+    }
+    .sales-header-promotions{
+        font-size: 15px;
+    }
+    .sales-header-title{
+        font-size: 28px;
+    }
+    .sales-header-time{
+        font-size: 16px;
+    }
+    .sales-product-actions-btn{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 800px){
+    .sales-product{
+        width: 250px;
+    }
+    .sales-product-image{
+        height: 250px;
+    }
+    .sales-product-name{
+        font-size: 18px;
+    }
+    .sales-product-price{
+        font-size: 17px;
+    }
+    .sales-product-memory-wrapper{
+        font-size: 9px;
+    }
+    .sales-product-tag{
+        right: -30px;
+        top: -15px;
+    }
+    .sales-header-promotions{
+        font-size: 14px;
+    }
+    .sales-header-title{
+        font-size: 26px;
+    }
+    .sales-header-time{
+        font-size: 15px;
+    }
+    .sales-product-memory-wrapper{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 665px){
+    .sales-product{
+        width: 230px;
+    }
+    .sales-product-image{
+        height: 230px;
+    }
+    .sales-product-name{
+        font-size: 17px;
+    }
+    .sales-product-price{
+        font-size: 16px;
+    }
+    .sales-product-memory-wrapper{
+        font-size: 9px;
+    }
+    .sales-header-promotions{
+        font-size: 14px;
+    }
+    .sales-header-title{
+        font-size: 27px;
+    }
+    .sales-header-time{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 620px){
+    .sales-product{
+        width: 170px;
+    }
+    .sales-product-image{
+        height: 210px;
+    }
+    .sales-product-name{
+        font-size: 16px;
+    }
+    .sales-product-price{
+        font-size: 15px;
+    }
+    .sales-product-memory-wrapper{
+        font-size: 8px;
+    }
+    .sales-header-promotions{
+        font-size: 13px;
+    }
+    .sales-header-title{
+        font-size: 25px;
+    }
+    .sales-header-time{
+        font-size: 15px;
+    }
+    .sales-product-actions-btn{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 400px){
+    .sales-product{
+        width: 150px;
+    }
+}

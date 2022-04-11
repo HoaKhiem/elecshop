@@ -1,0 +1,66 @@
+.sub-header{
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    box-shadow: rgba(163, 162, 162, 0.19) 0px 10px 20px, rgba(145, 143, 143, 0.23) 0px 6px 6px;
+    animation: dropAndFade .5s ease-out backwards;
+}
+@keyframes dropAndFade{
+    from{
+        top: 0;
+        opacity: 0;
+    }
+    to{
+        top: 60px;
+        opacity: 1;
+    }
+}
+.sub-header-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    height: 60px;
+    flex-wrap: wrap;
+}
+.sub-header-item{
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    margin: 5px 15px;
+}
+.sub-link{
+    text-decoration: none;
+    color: #343434;
+}
+.sub-header-item-icon{
+    color: #343434;
+}
+.sub-link img{
+    width: 30px;
+    height: 30px;
+}
+.sub-header-active{
+    color: red;
+}
+.sub-header-responsive{
+    top: 170px;
+    animation: dropAndFadeResponsive .5s ease-out backwards;
+}
+.sub-header-list-responsive{
+    height: auto;
+}
+@keyframes dropAndFadeResponsive{
+    from{
+        top: 0px;
+        opacity: 0;
+    }
+    to{
+        top: 170px;
+        opacity: 1;
+    }
+}

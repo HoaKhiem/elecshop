@@ -1,0 +1,46 @@
+.err404-title{
+    width: 100%;
+    padding-top: 50px;
+}
+.err404-title h3{
+    font-size: 50px;
+}
+.err404-des{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 43px;
+    /* or 114% */
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+}
+.err404-link{
+    color: #007cff;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 767px){
+    .err404-title h3{
+        font-size: 40px;
+    }
+    .err404-des{
+        font-size: 22px;
+    }
+    .err404-link{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 500px){
+    .err404-title h3{
+        font-size: 35px;
+    }
+    .err404-des{
+        font-size: 20px;
+    }
+    .err404-link{
+        font-size: 16px;
+    }
+}

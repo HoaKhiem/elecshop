@@ -1,0 +1,129 @@
+.forgot-container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forgot{
+    width: 700px;
+    max-width: 95%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.forgot-header{
+    padding: 10px 0;
+}
+.forgot-header h5{
+    font-size: 25px;
+}
+.forgot-header p{
+    padding-top: 10px;
+}
+.forgot-input{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.forgot-input input{
+    width: 90%;
+    outline: none;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 5px;
+    padding: 12px 10px;
+    font-size: 16px;
+}
+.forgot-input-in{
+    margin-top: 10px;
+}
+.forgot-input-in input{
+    width: 60px;
+    outline: none;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 5px;
+    padding: 12px 10px;
+    font-size: 16px;
+    margin: 0 10px;
+    text-align: center;
+}
+.forgot-input-in input::-webkit-inner-spin-button,
+.forgot-input-in input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.forgot-input input:focus, .forgot-input-in input:focus{
+    border: 1px solid #5da5ec;
+    outline: 3px solid #2185e92f;
+}
+.forgot-action{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forgot-action-btn{
+    background-color: #0071e3;
+    margin-top: 10px;
+    width: 40%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forgot-result{
+    width: 100%;
+    margin-top: 10px;
+    color: #21c426;
+}
+.forgot-result-link{
+    color: #0071e3;
+}
+.disabled{
+    background-color: #616161;
+    cursor: not-allowed;
+}
+.forgot-alert{
+    color: red;
+    font-size: 12px;
+}
+.forgot-alert{
+    width: 100%;
+    text-align: center;
+    color: red;
+    margin-top: 5px;
+    font-size: 13px;
+}
+@media screen and (max-width: 800px){
+    .forgot-header h5{
+        font-size: 22px;
+    }
+    .forgot-header p{
+        font-size: 12px;
+    }
+    .forgot-action-btn{
+        font-size: 14px;
+    }
+    .forgot-container{
+        height: 70vh;
+    }
+}
+@media screen and (max-width: 500px){
+    .forgot-header h5{
+        font-size: 20px;
+    }
+    .forgot-header p{
+        font-size: 11px;
+    }
+    .forgot-action-btn{
+        font-size: 12px;
+    }
+    .forgot-container{
+        height: 30vh;
+    }
+}

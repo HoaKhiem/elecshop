@@ -1,0 +1,122 @@
+.productMenuItem-container{
+    width: 100%;
+    height: 500px;
+}
+.productMenuItem-title{
+    width: 100%;
+    text-align: center;
+    background-color: inherit;
+}
+.productMenuItem-top{
+    width: 100%;
+    height: 40%;
+    margin-top: 20px;
+}
+.productMenuItem-bottom{
+    width: 100%;
+    height: 60%;
+}
+.productMenuItem-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43.9994px;
+    line-height: 55px;
+    text-align: center;
+    color: #303030;
+    margin: 15px 0;
+    background-color: inherit;
+}
+.productMenuItem-price{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 14px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productMenuItem-price-current{
+    padding: 0 10px;
+}
+.productMenuItem-price-old{
+    opacity: .5;
+    text-decoration: line-through;
+}
+.productMenuItem-actions{
+    margin-top: 30px;
+}
+.productMenuItem-actions-btn{
+    background-color: #0071e3;
+    color: #fff;
+    font-size: 17px;
+    transition: all .1s linear;
+}
+.productMenuItem-actions-btn:hover{
+    letter-spacing: .5px;
+}
+.productMenuItem-bottom-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.productMenuItem-bottom-img img{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width: 1000px){
+    .productMenuItem-title{
+        font-size: 35px;
+    }
+    .productMenuItem-price{
+        font-size: 18px;
+    }
+    .productMenuItem-actions-btn{
+        font-size: 15px;
+    }
+    .productMenuItem-container{
+        height: 450px;
+    }
+    .productMenuItem-actions{
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width: 800px){
+    .productMenuItem-title{
+        font-size: 32px;
+        margin: 10px 0;
+    }
+    .productMenuItem-price{
+        font-size: 16px;
+    }
+    .productMenuItem-actions-btn{
+        font-size: 14px;
+    }
+    .productMenuItem-container{
+        height: 400px;
+    }
+    .productMenuItem-actions{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 600px){
+    .productMenuItem-title{
+        font-size: 30px;
+        margin: 5px 0;
+    }
+    .productMenuItem-price{
+        font-size: 15px;
+    }
+    .productMenuItem-actions-btn{
+        font-size: 13px;
+    }
+    .productMenuItem-container{
+        height: 350px;
+    }
+    .productMenuItem-actions{
+        margin-top: 15px;
+    }
+}

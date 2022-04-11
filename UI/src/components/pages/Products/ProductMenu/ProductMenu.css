@@ -1,0 +1,30 @@
+.productMenu{
+    width: 100%;
+    height: fit-content;
+}
+.productMenu-new-container{
+    width: 100%;
+}
+.productMenu-list-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.productMenu-item{
+    width: calc(50% - 10px);
+    background-color: #fff;
+    margin-top: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media screen and (max-width: 900px){
+    .productMenu-list-container{
+        flex-direction: column;
+    }
+    .productMenu-item{
+        width: calc( 100% - 10px);
+    }
+}
